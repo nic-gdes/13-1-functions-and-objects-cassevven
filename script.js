@@ -49,5 +49,6 @@ function appendPopToDOM(pop) {
     container.appendChild(newDiv);
 }
 
+for (var i = 0; i < allPops.length; i++) {
     appendPopToDOM(allPops[i]);
 }
